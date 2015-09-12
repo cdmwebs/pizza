@@ -1,3 +1,11 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+{{pw-nav}}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3 col-md-2 sidebar">
+      {{pw-venue-list}}
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+      {{outlet}}
+    </div>
+  </div>
+</div>
