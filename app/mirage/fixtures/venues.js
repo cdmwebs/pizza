@@ -79,6 +79,14 @@ export default [
     name: "Newport Pizza Company",
     address: "601 Monmouth St, Newport, KY 41071",
     location: L.latLng(39.091541, -84.493523)
+  }, {
+    name: "Riverfront Pizza",
+    address: "617 W 3rd St, Covington, KY 41011",
+    location: L.latLng(39.087591, -84.520989)
+  }, {
+    name: "Cincy By the Slice",
+    address: "1207 Main St, Cincinnati, OH 45202",
+    location: L.latLng(39.108620, -84.511475)
   }
 ];
 
