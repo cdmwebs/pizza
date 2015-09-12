@@ -86,7 +86,15 @@ export default [
   }, {
     name: "Cincy By the Slice",
     address: "1207 Main St, Cincinnati, OH 45202",
-    location: L.latLng(39.108620, -84.511475)
+    location: L.latLng(39.108620, -84.511475),
+  }, {
+    name: "Pomodori's Pizzeria and Trattoria",
+    address: "7880 Remington Rd, Cincinnati, OH 45242",
+    location: L.latLng(39.227701, -84.353161),
+  }, {
+    name: "Rusconi Pizza Pub",
+    address: "126 W 6th St, Cincinnati, OH 45202",
+    location: L.latLng(39.101860, -84.515643),
   }
 ];
 
