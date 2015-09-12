@@ -5,7 +5,7 @@ export default [
     location: L.latLng(39.093486, -84.495303),
     slug: "strongs-brick-oven-pizzeria"
   }, {
-    name: "Goodfella's Pizza",
+    name: "Goodfellas Pizza",
     address: "603 Main St, Covington, KY 41011",
     location: L.latLng(39.084084, -84.517512),
     slug: "goodfellas-pizza"
