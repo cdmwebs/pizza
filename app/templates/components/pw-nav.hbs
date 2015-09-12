@@ -12,7 +12,14 @@
       {{/link-to}}
     </div>
     <div id="navbar" class="navbar-collapse collapse">
-      <!--
+      <ul class="nav navbar-nav">
+        {{#active-link}}
+          {{link-to 'About' 'about'}}
+        {{/active-link}}
+        {{#active-link}}
+          {{link-to 'The Venues' 'venues'}}
+        {{/active-link}}
+      </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Dashboard</a></li>
         <li><a href="#">Settings</a></li>
@@ -22,7 +29,6 @@
       <form class="navbar-form navbar-right">
         <input type="text" class="form-control" placeholder="Search...">
       </form>
-      -->
     </div>
   </div>
 </nav>
