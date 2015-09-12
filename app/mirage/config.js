@@ -20,6 +20,19 @@ export default function() {
     };
   });
 
+  this.get('/venues/:id', function(db, request) {
+    var venueId = +request.params.id;
+    var venue = db.venues.find(venueId);
+
+    return {
+      data: {
+        type: 'venues',
+        id: venue.id,
+        attributes: venue
+      }
+    }
+  });
+
   /*
     Route shorthand cheatsheet
   */
