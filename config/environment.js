@@ -22,11 +22,11 @@ module.exports = function(environment) {
   ENV.contentSecurityPolicy = {
     'default-src': "'none'",
     'script-src': "'self' 'unsafe-inline'",
-    'font-src': "'self'",
+    'font-src': "'self' https://fonts.gstatic.com",
     'connect-src': "'self' localhost", // Allow data (ajax/websocket) from api.mixpanel.com and custom-api.local
     'img-src': "'self' api.mapbox.com s3.amazonaws.com data:",
-    'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com",
-    'media-src': "'self'"
+    'style-src': "'self' 'unsafe-inline' https://fonts.googleapis.com",
+    'media-src': "'self' https://fonts.googleapis.com"
   };
 
   if (environment === 'development') {
