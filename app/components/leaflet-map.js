@@ -3,6 +3,8 @@ import MarkerCollectionLayer from 'ember-leaflet/layers/marker-collection';
 import TileLayer from 'ember-leaflet/layers/tile';
 
 export default EmberLeafletComponent.extend({
+  center: [39.1000, -84.5167],
+  zoom: 15,
   childLayers: [
     TileLayer.extend({
       //tileUrl: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png?{foo}',
