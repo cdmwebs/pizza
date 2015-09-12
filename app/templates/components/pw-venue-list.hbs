@@ -1,6 +1,11 @@
 <ul class="nav nav-sidebar">
   {{#each venues as |venue|}}
-    <li><a href="#">{{venue.name}}</a></li>
+    <li>
+      <a href="#">
+        <img src="{{venue.avatar}}" class="venue__avatar" />
+        {{venue.name}}
+      </a>
+    </li>
   {{else}}
     <li><a href="#">No venues.</a></li>
   {{/each}}
