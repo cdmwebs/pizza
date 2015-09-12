@@ -5,6 +5,7 @@ var attr = DS.attr;
 export default DS.Model.extend({
   name: attr(),
   avatar: attr(),
+  address: attr(),
   location: attr(),
   slug: attr()
 });
