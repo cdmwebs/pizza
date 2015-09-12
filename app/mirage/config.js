@@ -20,9 +20,10 @@ export default function() {
     };
   });
 
-  this.get('/venues/:id', function(db, request) {
-    var venueId = +request.params.id;
-    var venue = db.venues.find(venueId);
+  this.get('/venues/:slug', function(db, request) {
+    var venueSlug = request.params.slug;
+    var venues = db.venues.where({ slug: venueSlug });
+    var venue = venues[0];
 
     return {
       data: {
