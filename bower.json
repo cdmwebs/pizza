@@ -17,6 +17,7 @@
     "lodash": "~3.7.0",
     "Faker": "~3.0.0",
     "leaflet": "~0.7.5",
-    "leaflet.markercluster": "~0.4.0"
+    "leaflet.markercluster": "~0.4.0",
+    "emojify": "~1.1.0"
   }
 }
