@@ -75,6 +75,10 @@ export default [
     name: "Garzelli's Grinder & Pizza Co",
     address: "3025 Dixie Hwy, Edgewood, KY 41017",
     location: L.latLng(39.023012, -84.585065)
+  }, {
+    name: "Newport Pizza Company",
+    address: "601 Monmouth St, Newport, KY 41071",
+    location: L.latLng(39.091541, -84.493523)
   }
 ];
 
