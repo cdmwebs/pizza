@@ -6,16 +6,16 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-venue = Venue.create(name: "Goodfellas")
-venue.locations.create(address: "1211 Main St., Cincinnati OH 45202")
+seeds_file = Rails.root.join('db', 'seeds.json')
+seeds = File.read(seeds_file)
+venues = JSON.parse(seeds)
+
+venues.each do |venue|
+  v = Venue.create!(name: venue['name'])
+  v.locations.create!(address: venue['address'])
+end
+
+
+venue = Venue.find_by_name("Goodfellas Pizza")
 venue.locations.create(address: "603 Main Street Covington, KY 41011")
-
-venue = Venue.create(name: "Lucy Blue's")
-venue.locations.create(address: "1211 Main St., Cincinnati OH 45202")
-
-venue = Venue.create(name: "A Tavola")
-venue.locations.create(address: "1211 Main St., Cincinnati OH 45202")
-
-venue = Venue.create(name: "Strong's Brick Oven Pizza")
-venue.locations.create(address: "1211 Main St., Cincinnati OH 45202")
 

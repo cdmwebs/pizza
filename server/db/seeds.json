@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Strong's Brick Oven Pizzeria",
+    "address": "336 Monmouth St, Newport, KY 41071",
+    "slug": "strongs-brick-oven-pizzeria"
+  }, {
+    "name": "Goodfellas Pizza",
+    "address": "603 Main St, Covington, KY 41011",
+    "slug": "goodfellas-pizza"
+  }, {
+    "name": "Ramundo's Pizzeria",
+    "address": "3166 Linwood Ave, Cincinnati, OH 45208",
+    "slug": "ramundos-pizzeria"
+  }, {
+    "name": "Lucy Blue's Pizza",
+    "address": "1126 Main St, Cincinnati, OH 45202",
+    "slug": "lucy-blues-pizza"
+  }, {
+    "name": "A Tavola",
+    "address": "1220 Vine St, Cincinnati, OH 45202",
+    "slug": "a-tavola"
+  }, {
+    "name": "Pi Pizzeria",
+    "address": "199 E 6th St, Cincinnati, OH 45202",
+    "slug": "pi-pizzeria"
+  }, {
+    "name": "Adriatico's",
+    "address": "113 W McMillan St, Cincinnati, OH 45219",
+    "slug": "adriaticos"
+  }, {
+    "name": "Fireside Pizza",
+    "address": "773 E McMillan St, Cincinnati, OH 45206",
+    "slug": "fireside-pizza"
+  }, {
+    "name": "Dewey's Pizza",
+    "address": "265 Hosea Ave, Cincinnati, OH 45220",
+    "slug": "deweys-pizza"
+  }, {
+    "name": "J Bar Pizzeria",
+    "address": "2637 Erie Ave, Cincinnati, OH 45208",
+    "slug": "j-bar-pizzeria"
+  }, {
+    "name": "Jean Paul's Paradiso",
+    "address": "6732 Clough Pike, Cincinnati, OH 45244",
+    "slug": "jean-pauls-paradiso"
+  }, {
+    "name": "Trotta's Pizza & Drive Thru",
+    "address": "3501 Werk Rd, Cincinnati, OH 45248",
+    "slug": "trottas-pizza-and-drive-thru"
+  }, {
+    "name": "Angilo's Pizza",
+    "address": "6953 Harrison Ave, Cincinnati, OH 45247",
+    "slug": "angilos-pizza"
+  }, {
+    "name": "Pizzelii",
+    "address": "7639 Wooster Pike, Cincinnati, OH 45227",
+    "slug": "pizzelii"
+  }, {
+    "name": "Chester's Pizzeria",
+    "address": "2929 Dixie Hwy, Hamilton, OH 45015",
+    "slug": "chesters-pizzeria"
+  }, {
+    "name": "Flying Pizza",
+    "address": "9563 Fields Ertel Rd, Loveland, OH 45140",
+    "slug": "flying-pizza"
+  }, {
+    "name": "Rocafella's Pizza",
+    "address": "11055 Reading Rd Sharonville, OH 45241",
+    "slug": "rocafellas-pizza"
+  }, {
+    "name": "Rudinos Pizza & Grinders",
+    "address": "9730 Montgomery Rd, Cincinnati, OH 45242",
+    "slug": "rudinos-pizza-and-grinders"
+  }, {
+    "name": "Garzelli's Grinder & Pizza Co",
+    "address": "3025 Dixie Hwy, Edgewood, KY 41017",
+    "slug": "garzellis-grinder-and-pizza-co"
+  }, {
+    "name": "Newport Pizza Company",
+    "address": "601 Monmouth St, Newport, KY 41071",
+    "slug": "newport-pizza-company"
+  }, {
+    "name": "Riverfront Pizza",
+    "address": "617 W 3rd St, Covington, KY 41011",
+    "slug": "riverfront-pizza"
+  }, {
+    "name": "Cincy By the Slice",
+    "address": "1207 Main St, Cincinnati, OH 45202",
+    "slug": "cincy-by-the-slice"
+  }, {
+    "name": "Pomodori's Pizzeria and Trattoria",
+    "address": "7880 Remington Rd, Cincinnati, OH 45242",
+    "slug": "pomodoris-pizzeria-and-trattoria"
+  }, {
+    "name": "Rusconi Pizza Pub",
+    "address": "126 W 6th St, Cincinnati, OH 45202",
+    "slug": "rusconi-pizza-pub"
+  }
+]
