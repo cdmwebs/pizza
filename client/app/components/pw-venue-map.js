@@ -16,7 +16,7 @@ var markersLayer = MarkerCollectionLayer.extend(CollectionBoundsMixin, {
     this._super(layer);
     var bounds = this.get('bounds');
     var parentLayer = this.get('parentLayer.layer');
-    parentLayer.fitBounds(bounds);
+    parentLayer.fitBounds(bounds, { maxZoom: 12 });
   },
 });
 
