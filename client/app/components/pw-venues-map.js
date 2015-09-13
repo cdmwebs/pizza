@@ -21,8 +21,9 @@ var markersLayer = MarkerCollectionLayer.extend(CollectionBoundsMixin, {
 });
 
 var tileLayer = TileLayer.extend({
-  tileUrl: 'https://api.mapbox.com/v4/{style}/{z}/{x}/{y}.png?access_token={token}',
+  tileUrl: 'https://api.mapbox.com/v4/{style}/{z}/{x}/{y}{format}?access_token={token}',
   options: {
+    format: '@2x.png',
     style: 'mapbox.streets',
     token: 'pk.eyJ1IjoiY2Rtd2VicyIsImEiOiJjaWVnaHdsNXowMDN2czZtM3g2Nm9zMHJkIn0.ZyY3UxiPh5eepFIKeYY-Xg'
   }
