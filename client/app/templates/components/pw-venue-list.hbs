@@ -2,7 +2,7 @@
 <ul class="nav nav-sidebar">
   {{#each venues as |venue|}}
     {{#active-link}}
-      {{link-to venue.name 'venues.venue' venue.slug}}
+      {{link-to venue.name 'venues.venue' venue.url}}
     {{/active-link}}
   {{else}}
     <li><a href="#">No venues.</a></li>
