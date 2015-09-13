@@ -15,7 +15,6 @@ venues.each do |venue|
   v.locations.create!(address: venue['address'])
 end
 
-
 venue = Venue.find_by_name("Goodfellas Pizza")
 venue.locations.create(address: "603 Main Street Covington, KY 41011")
 
