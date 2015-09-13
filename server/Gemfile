@@ -3,7 +3,8 @@ ruby '2.2.3'
 
 gem 'rails', '4.2.4'
 gem 'pg'
-gem 'active_model_serializers'
+gem 'active_model_serializers', github: 'rails-api/active_model_serializers'
+gem 'geocoder'
 
 # gem 'unicorn'
 gem 'bootstrap-sass', '~> 3.3.5'
