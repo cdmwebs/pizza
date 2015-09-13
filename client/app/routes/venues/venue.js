@@ -6,7 +6,7 @@ export default Ember.Route.extend({
   },
 
   serialize: function(model) {
-    return { venue_slug: model.get('slug') };
+    return { venue_slug: model.get('url') };
   }
 });
 
