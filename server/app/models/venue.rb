@@ -4,7 +4,7 @@ class Venue < ActiveRecord::Base
   acts_as_url :name, sync_url: true
 
   def self.by_name
-    order(:name)
+    order(:name).includes(:locations)
   end
 
   def to_param
